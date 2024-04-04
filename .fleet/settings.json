@@ -1,0 +1,7 @@
+{
+    "java.debugger.reloadClassesAfterCompilation": "Always",
+    "run.destination.stop.already.running": "Always",
+    "nodejs.editor.formatOnSave.stylelint.mode": "Enabled",
+    "nodejs.editor.formatOnSave.eslint.mode": "Enabled",
+    "nodejs.editor.formatOnSave.prettier.mode": "Enabled"
+}
