@@ -1,13 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import { useState } from "react";
 
 function App() {
-    return (
-        <div className="App">
-            <h1>Welllcome</h1>
-
-        </div>
-    );
+  const [emotion, serEmotion] = useState("happy");
+  return (
+    <div className="App">
+      <h1>Welllcome {emotion}</h1>
+      <button onClick={() => serEmotion("sad")}>sad</button>
+    </div>
+  );
 }
 
 export default App;
